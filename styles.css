@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #181926;
+    color: #cad3f5;
+    font-family: Montserrat, sans-serif;
+}
+
+.panel {
+  background-color: #24273a;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px auto auto;
+  width: 35%;
+  align-items: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: #8aadf4;
+}
+
+a:visited {
+    color: #c6a0f6;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.title {
+  background-color: #363a4f;
+  padding: 10px 20px;
+  width: calc(100% - 40px);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+}
+
+.box {
+  background-color: rgba(54, 58, 79, 0.51);
+  padding: 10px;
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px auto auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: left;
+  padding: 10px 10px 10px 20px;
+  align-items: start;
+}
+
+.grid * {
+  margin: 0;
+}
+
+img {
+    width: 350px;
+    margin: 20px;
+}
